@@ -1,0 +1,22 @@
+Form1:
+[TOOLBOXS] (Designs)
+LABELS
+- Item, Qyt, Price, Discount (%), Total Amount, Payment Received, Change (ito yung mga titles para malaman ng user kung saan sya mag t'type)
+- <total amount> (makikita ni user yung total amount once na click nya yung "Compute")
+- <change> (dito naman lalabas kung magkano yung change ng costumer once na click na yung "Submit")
+
+TEXTBOXS
+- Item, Qyt, Price, Discount (%), Payment Received(ito naman yung kung saan mag e-enter ng letter for item and numbers for the rest si user)
+
+BUTTONS
+- Gumamit kami ng Method Overriding dito, direct na both "Item and DiscountedItem" hindi na kami nag separate ng 2 classes kumbaga shortcut 
+- Compute (after ma-input yung mga "Item, Qty, Price, Discount (%)" tsaka sya pwedeng i-click and map'punta sya "Total Amount: <total amount>")
+- Submit (c'click lang ito ni user once nakapag nakapag input na sya ng "Payment Received" and after that tulad ng kay "Compute" map'punta na naman sya sa "Change: <change> (label)")
+-Add Item (sa addtional function ko sya id'discuss)
+
+
+ADDITIONAL FUNCTIONS:
+DataGridView (toolbox)
+- dito na i-input and mags'show yung item, qyt, price.
+Add Item (button)
+- c'click mo lang 'yang button if ever na may mga a-add kang item/s.
